@@ -1,0 +1,11 @@
+# Only packages you personally need
+pandas==2.3.3
+numpy==2.0.2
+scikit-learn>=1.4
+scipy==1.13.1
+kneed==0.8.4
+graphviz==0.21
+
+# only if you use them in your code
+fsspec==2024.3.1
+requests==2.31.0

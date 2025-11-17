@@ -1,0 +1,32 @@
+[2025-11-17T00:49:03.585+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:49:03.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py for tasks to queue
+[2025-11-17T00:49:03.593+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:03.592+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:49:06.057+0000] {processor.py:925} INFO - DAG(s) 'Airflow_Lab1' retrieved from /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:49:06.489+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:06.487+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:Airflow_Lab1
+[2025-11-17T00:49:06.505+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:06.505+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:Airflow_Lab1
+[2025-11-17T00:49:06.512+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:06.512+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:Airflow_Lab1
+[2025-11-17T00:49:06.513+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:06.513+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-11-17T00:49:06.775+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:06.774+0000] {dag.py:3234} INFO - Creating ORM DAG for Airflow_Lab1
+[2025-11-17T00:49:06.776+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:06.776+0000] {dag.py:4138} INFO - Setting next_dagrun for Airflow_Lab1 to None, run_after=None
+[2025-11-17T00:49:06.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py took 3.328 seconds
+[2025-11-17T00:49:38.086+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:49:38.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py for tasks to queue
+[2025-11-17T00:49:38.113+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:38.107+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:49:39.940+0000] {processor.py:925} INFO - DAG(s) 'Airflow_Lab1' retrieved from /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:49:39.977+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:39.976+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-11-17T00:49:39.991+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:49:39.991+0000] {dag.py:4138} INFO - Setting next_dagrun for Airflow_Lab1 to None, run_after=None
+[2025-11-17T00:49:40.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py took 1.945 seconds
+[2025-11-17T00:50:10.618+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:50:10.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py for tasks to queue
+[2025-11-17T00:50:10.623+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:50:10.623+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:50:12.558+0000] {processor.py:925} INFO - DAG(s) 'Airflow_Lab1' retrieved from /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:50:12.597+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:50:12.596+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-11-17T00:50:12.622+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:50:12.622+0000] {dag.py:4138} INFO - Setting next_dagrun for Airflow_Lab1 to None, run_after=None
+[2025-11-17T00:50:12.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py took 2.038 seconds
+[2025-11-17T00:50:43.450+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:50:43.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py for tasks to queue
+[2025-11-17T00:50:43.462+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:50:43.460+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:50:46.555+0000] {processor.py:925} INFO - DAG(s) 'Airflow_Lab1' retrieved from /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py
+[2025-11-17T00:50:46.630+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:50:46.629+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2025-11-17T00:50:46.660+0000] {logging_mixin.py:190} INFO - [2025-11-17T00:50:46.660+0000] {dag.py:4138} INFO - Setting next_dagrun for Airflow_Lab1 to None, run_after=None
+[2025-11-17T00:50:46.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MLOps-Airflow-Lab1/ML_airflow.py took 3.307 seconds

@@ -1,0 +1,13 @@
+[2025-11-06T18:05:57.070-0500] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Airflow_Lab1.build_save_model_task manual__2025-11-06T23:05:49.038588+00:00 [queued]>
+[2025-11-06T18:05:57.073-0500] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Airflow_Lab1.build_save_model_task manual__2025-11-06T23:05:49.038588+00:00 [queued]>
+[2025-11-06T18:05:57.073-0500] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2025-11-06T18:05:57.078-0500] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): build_save_model_task> on 2025-11-06 23:05:49.038588+00:00
+[2025-11-06T18:05:57.086-0500] {standard_task_runner.py:60} INFO - Started process 40575 to run task
+[2025-11-06T18:05:57.089-0500] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Airflow_Lab1', 'build_save_model_task', 'manual__2025-11-06T23:05:49.038588+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/MLOps-Airflow-Lab1/ML_airflow.py', '--cfg-path', '/var/folders/lv/17qxdv6n0t19vxwf1_j5ym6m0000gn/T/tmpbfm0bw8j']
+[2025-11-06T18:05:57.091-0500] {standard_task_runner.py:88} INFO - Job 4: Subtask build_save_model_task
+[2025-11-06T18:05:57.115-0500] {task_command.py:423} INFO - Running <TaskInstance: Airflow_Lab1.build_save_model_task manual__2025-11-06T23:05:49.038588+00:00 [running]> on host karthiks-macbook-air.local
+[2025-11-06T18:05:57.138-0500] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Karthik' AIRFLOW_CTX_DAG_ID='Airflow_Lab1' AIRFLOW_CTX_TASK_ID='build_save_model_task' AIRFLOW_CTX_EXECUTION_DATE='2025-11-06T23:05:49.038588+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-06T23:05:49.038588+00:00'
+[2025-11-06T18:05:57.344-0500] {python.py:201} INFO - Done. Returned value was: {'n_clusters': 5}
+[2025-11-06T18:05:57.350-0500] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Airflow_Lab1, task_id=build_save_model_task, execution_date=20251106T230549, start_date=20251106T230557, end_date=20251106T230557
+[2025-11-06T18:05:57.390-0500] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-11-06T18:05:57.398-0500] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check
