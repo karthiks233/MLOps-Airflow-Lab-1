@@ -3,7 +3,7 @@
 
 I have used a different clustering algorithm - DBScan and Standard scaler
 
-##Steps to Run:
+## Steps to Run:
 1. Clone the entire Repo
 2. Run Docker Engine
 3. Within the project -> Run docker compose up --build
